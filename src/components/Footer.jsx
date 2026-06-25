@@ -33,8 +33,8 @@ export default function Footer() {
   const { t } = useLanguage()
 
   return (
-    <footer className="bg-ttri-teal text-white mt-auto">
-      <div className="max-w-7xl mx-auto px-6 py-10">
+    <footer className="bg-[#089db4] text-white mt-auto">
+      <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           
           {/* Left: Building Image + Copyright */}
@@ -51,7 +51,7 @@ export default function Footer() {
                 <BuildingIcon />
               </div>
             </div>
-            <div className="text-sm text-teal-100 leading-relaxed">
+            <div className=" text-teal-100 leading-relaxed">
               <p className="font-medium text-white mb-0.5">財團法人紡織產業綜合研究所 版權所有</p>
               <p>{t('copyright')}</p>
               <p className="text-xs text-teal-200 mt-1">最佳瀏覽環境1280 x 1024視窗模式以上，Chrome 與 Firefox 及 IE10.0 以上版本瀏覽器</p>
@@ -74,7 +74,7 @@ export default function Footer() {
                     href={href}
                     target={href.startsWith('http') ? '_blank' : undefined}
                     rel="noopener noreferrer"
-                    className="text-teal-100 hover:text-white text-sm transition-colors duration-150 hover:underline"
+                    className="text-teal-100 hover:text-white  transition-colors duration-150 hover:underline"
                   >
                     {label}
                   </a>
@@ -86,12 +86,12 @@ export default function Footer() {
           {/* Right: Contact Us */}
           <div>
             <h3 className="text-white font-bold text-base mb-1 tracking-wide">{t('contactUs')}</h3>
-            <p className="text-teal-100 font-semibold text-sm mb-1">{t('deptName')}</p>
+            <p className="text-teal-100 font-semibold  mb-1">{t('deptName')}</p>
             <p className="text-white font-bold text-base mb-4">
               {t('contactPerson')}
             </p>
 
-            <div className="space-y-2 text-sm text-teal-100">
+            <div className="space-y-2  text-teal-100">
               <p>{t('address')}</p>
               <p>{t('phone')}</p>
               <p>
@@ -106,7 +106,9 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        <div className="h-14"></div>
       </div>
+      <div className='py-[30px] w-full bg-[#057A8D]'></div>
     </footer>
   )
 }
