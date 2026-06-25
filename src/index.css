@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    @apply bg-white text-gray-800;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+}
+
+
+@layer components {
+  .nav-link {
+    @apply text-gray-700 hover:text-ttri-blue text-base font-medium transition-colors duration-200;
+  }
+  .dropdown-item {
+    @apply block px-4 py-2 text-gray-700 text-lg hover:text-ttri-blue transition-colors duration-150 cursor-pointer;
+  }
+  .report-label {
+    @apply text-gray-500 text-lg font-medium;
+  }
+  .report-value {
+    @apply text-gray-800 text-lg;
+  }
+}
