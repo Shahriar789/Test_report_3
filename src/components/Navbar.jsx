@@ -132,9 +132,9 @@ export default function Navbar() {
             </a>
 
             {/* Language Dropdown */}
-            <div className="relative" ref={langRef}>
+            <div className="relative pl-5" ref={langRef}>
               <button
-                className="flex items-center gap-1.5 nav-link border border-gray-200 rounded-md px-3 py-1.5 hover:border-ttri-blue hover:bg-blue-50 transition-all"
+                className="flex items-center gap-1.5 nav-link transition-all"
                 onClick={() => setLangOpen(o => !o)}
               >
                 <USFlag />
@@ -142,7 +142,7 @@ export default function Navbar() {
                 <ChevronDown size={12} className={`transition-transform duration-200 ${langOpen ? 'rotate-180' : ''}`} />
               </button>
               {langOpen && (
-                <div className="absolute right-0 top-full mt-1 w-40 bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden z-50">
+                <div className="absolute right-0 top-full mt-1 w-40 bg-white shadow-lg overflow-hidden z-50">
                   <button
                     className="w-full flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 transition-colors"
                     onClick={() => { toggleLang(); setLangOpen(false) }}
