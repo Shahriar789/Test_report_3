@@ -5,13 +5,13 @@ export default function VerifyReport() {
   const { lang, toggleLang, t } = useLanguage();
 
   return (
-    <main className="min-h-screen no-scrollbar py-10 px-4">
+    <main className="min-h-screen no-scrollbar pt-5 pb-10 px-4">
       <div className="max-w-[85%] mx-auto">
         {/* Page Title */}
-        <h1 className="text-3xl font-bold text-gray-800 mb-1">
+        <h1 className="text-3xl text-gray-800 mb-1">
           {t("verifyTestingReport")}
         </h1>
-        <hr className="border-gray-200 mb-6 w-3xl " />
+        <hr className="border-gray-200 mb-6 w-[80%] mx-auto" />
 
         {/* Language Toggle Button */}
         <div className="flex justify-center mb-8">
@@ -24,7 +24,7 @@ export default function VerifyReport() {
         </div>
 
         {/* Report Card */}
-        <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+        <div className="bg-white rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.10)] overflow-hidden">
           <div className="px-6 py-4 ">
             <h2 className="text-gray-500">
               {t("abstractOfTestingReport")}
