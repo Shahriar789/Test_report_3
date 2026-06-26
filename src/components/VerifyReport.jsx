@@ -11,7 +11,7 @@ export default function VerifyReport() {
         <h1 className="text-3xl text-gray-800 mb-1">
           {t("verifyTestingReport")}
         </h1>
-        <hr className="border-gray-200 mb-6 w-[80%] mx-auto" />
+        <hr className="border-gray-200 mb-6 mt-2 w-[80%] mx-auto" />
 
         {/* Language Toggle Button */}
         <div className="flex justify-center mb-8">
@@ -111,6 +111,7 @@ export default function VerifyReport() {
             </div>
           </div>
         </div>
+        <hr className="border-gray-200 w-full mt-4" />
       </div>
     </main>
   );
