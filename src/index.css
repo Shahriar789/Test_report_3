@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,35 +8,38 @@
   * {
     box-sizing: border-box;
   }
+
+  html,
   body {
-    font-family: 'Inter', system-ui, sans-serif;
-    @apply bg-white text-gray-800;
+    font-family: "Poppins", sans-serif;
   }
 }
 
 @layer utilities {
   .no-scrollbar {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 
   .no-scrollbar::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera */
+    display: none;
   }
 }
 
-
 @layer components {
   .nav-link {
-    @apply text-gray-700 hover:text-ttri-blue text-base font-medium transition-colors duration-200;
+    @apply text-gray-700 hover:text-black text-[15px] font-medium transition-colors duration-200;
   }
+
   .dropdown-item {
-    @apply block px-4 py-2 text-gray-700 text-lg hover:text-ttri-blue transition-colors duration-150 cursor-pointer;
+    @apply block px-4 py-2 text-gray-700 text-[15px] hover:text-black transition-colors duration-150 cursor-pointer;
   }
+
   .report-label {
-    @apply text-gray-500 text-lg font-medium;
+    @apply text-gray-500 text-base;
   }
+
   .report-value {
-    @apply text-gray-800 text-lg;
+    @apply text-gray-500 text-base;
   }
 }

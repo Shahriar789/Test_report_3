@@ -11,12 +11,12 @@ export default {
           blue: '#0099CC',
           teal: '#00A8B4',
           dark: '#2C3E50',
-          gray: '#6B7280',
+          gray: '#000000',
           light: '#F8FAFC',
         }
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['Poppins', 'system-ui', 'sans-serif'],
       }
     },
   },

@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { ChevronDown } from 'lucide-react'
 import { useLanguage } from '../context/LanguageContext'
+import logo from "./../Assets/ttri-home.png"
 
 // Taiwan flag SVG inline
 const TaiwanFlag = () => (
@@ -65,31 +66,12 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white border-b border-gray-200 shadow-sm sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[90%] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           
           {/* Logo */}
-          <div className="flex items-center gap-3 flex-shrink-0">
-            <div className="flex flex-col leading-tight">
-              <span className="text-xs text-gray-500 font-medium">財團法人</span>
-              <span className="text-xs text-gray-500 font-medium">紡織產業綜合研究所</span>
-              <span className="text-[10px] text-gray-400">Taiwan Textile Research Institute</span>
-            </div>
-            {/* TTRI Logo Mark */}
-            <div className="flex items-center gap-1.5">
-              <div className="w-8 h-8 relative">
-                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="20" cy="20" r="18" stroke="#CC0000" strokeWidth="2" fill="none"/>
-                  <path d="M12 15 Q20 8 28 15 Q20 22 12 15Z" fill="#CC0000"/>
-                  <path d="M12 25 Q20 18 28 25 Q20 32 12 25Z" fill="#CC0000" opacity="0.6"/>
-                  <circle cx="20" cy="20" r="3" fill="#CC0000"/>
-                </svg>
-              </div>
-              <div>
-                <div className="text-lg font-bold text-gray-800 leading-none">試驗報告系統</div>
-                <div className="text-xs text-gray-500 leading-none">Test Report System</div>
-              </div>
-            </div>
+          <div className="">
+            <img src={logo} alt="logo" className='h-11'/>
           </div>
 
           {/* Nav Links */}
@@ -177,7 +159,7 @@ export default function Navbar() {
           <a
             href="https://test3.ttri.org.tw/Forms/Application"
             rel="noopener noreferrer"
-            className="bg-ttri-blue hover:bg-white border hover:border-ttri-blue hover:text-ttri-blue text-white font-semibold px-5 py-2 rounded-sm transition-colors duration-200 shadow-sm"
+            className="bg-[#38A4FF] hover:bg-white border hover:border-[#38A4FF] hover:text-[#38A4FF] text-white font-medium px-5 py-2 rounded-[4px] text-base transition-colors duration-200 shadow-sm"
           >
             {t('newCase')}
           </a>
