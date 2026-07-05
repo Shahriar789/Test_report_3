@@ -111,7 +111,7 @@ export default function Footer() {
 
               <div className="space-y-2  text-teal-100">
                 <p>{t("address")}</p>
-                <p>{t("phone")}</p>
+                <p className="w-16">{t("phone")}</p>
                 <p>
                   Email：{" "}
                   <a

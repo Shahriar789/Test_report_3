@@ -40,7 +40,7 @@ export default function VerifyReport() {
                   {t("reportNo")}
                 </span>
                 <span className="report-value">
-                  TF14100345
+                  TF14100344
                 </span>
               </div>
 
@@ -65,7 +65,7 @@ export default function VerifyReport() {
                 <span className="report-label w-36 flex-shrink-0">
                   {t("version")}
                 </span>
-                <span className="report-value"></span>
+                <span className="report-value">01</span>
               </div>
 
               {/* Date of Issue */}
