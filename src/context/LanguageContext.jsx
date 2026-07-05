@@ -61,7 +61,7 @@ const translations = {
     item: '品項',
     quantity: '數量',
     testResults: '測試結果',
-    testResultsText: '初始壓降：112.2 Pa　容塵量：1256.4 g　ISO等級：ISO T9',
+    testResultsText: '初始壓降：58.0 Pa　容塵量：934.5 g　ISO等級：ISO T9',
     testResultsNote: '此測試報告包含大量資訊。如需確認數據，請透過電子郵件聯繫紡織研究院。',
     // Footer
     quickLinks: '快速連結',
@@ -72,7 +72,7 @@ const translations = {
     modifyInformation: '修改資料',
     forgetPassword: '忘記密碼',
     address: '新北市土城區承天路6號，郵遞區號23674，台灣（中華民國）',
-    phone: '+886 2-2267-0321 分機 7028',
+    phone: '008618063122877, 008618053181869',
     email: 'yhpan.0276@ttri.org.tw',
     copyright: '財團法人紡織產業綜合研究所 版權所有',
     filter: '過濾器',

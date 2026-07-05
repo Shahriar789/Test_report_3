@@ -78,7 +78,7 @@ export default function Navbar() {
           <div className="hidden md:flex items-center gap-6">
             {/* Main */}
             <a
-              href="https://test3.ttri.org.tw/"
+              // href="https://test3.ttri.org.tw/"
 
               rel="noopener noreferrer"
               className="nav-link"
@@ -97,7 +97,7 @@ export default function Navbar() {
               {testingOpen && (
                 <div className="absolute left-0 top-full mt-1 w-52 bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden z-50">
                   <a
-                    href="https://test3.ttri.org.tw/Forms/Application"
+                    // href="https://test3.ttri.org.tw/Forms/Application"
 
                     rel="noopener noreferrer"
                     className="dropdown-item"
@@ -106,7 +106,7 @@ export default function Navbar() {
                     {t('newCase')}
                   </a>
                   <a
-                    href="https://test3.ttri.org.tw/Forms/Quotation"
+                    // href="https://test3.ttri.org.tw/Forms/Quotation"
 
                     rel="noopener noreferrer"
                     className="dropdown-item"
@@ -123,7 +123,7 @@ export default function Navbar() {
 
             {/* Sign Up */}
             <a
-              href="https://test3.ttri.org.tw/Home/Register"
+              // href="https://test3.ttri.org.tw/Home/Register"
 
               rel="noopener noreferrer"
               className="nav-link"
@@ -157,7 +157,7 @@ export default function Navbar() {
 
           {/* New Case Button */}
           <a
-            href="https://test3.ttri.org.tw/Forms/Application"
+            // href="https://test3.ttri.org.tw/Forms/Application"
             rel="noopener noreferrer"
             className="bg-[#38A4FF] hover:bg-white border hover:border-[#38A4FF] hover:text-[#38A4FF] text-white font-medium px-5 py-2 rounded-[4px] text-base transition-colors duration-200 shadow-sm"
           >
