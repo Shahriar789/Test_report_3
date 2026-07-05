@@ -61,7 +61,7 @@ const translations = {
     item: '品項',
     quantity: '數量',
     testResults: '測試結果',
-    testResultsText: '初始壓降：58.0 Pa　容塵量：934.5 g　ISO等級：ISO T9',
+    testResultsText: '初始壓降：58.0 Pa　容塵量：934.5 g　ISO等級：ISO ePM10 50%',
     testResultsNote: '此測試報告包含大量資訊。如需確認數據，請透過電子郵件聯繫紡織研究院。',
     // Footer
     quickLinks: '快速連結',
